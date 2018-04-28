@@ -6,7 +6,6 @@
         "WORKDIR /usr/src/app",
         "COPY ./src /usr/src/app",
         "EXPOSE 80",
-        "RUN ls",
-        "CMD [\"python\", \"pagekite.py\", \"--optfile=kite.conf\"]"
+        "CMD [\"python\", \"pagekite.py\", \"--optfile=/usr/src/app/kite.config\"]"
     ]
 }
