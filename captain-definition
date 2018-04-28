@@ -9,7 +9,7 @@
         "COPY ./src /usr/src/app",
         "EXPOSE 80",
         "RUN apk del tzdata",  
-        "CMD [\"python\", \"pagekite.py\", \"--optfile\", \"/usr/src/app/kite.conf\"]"
+        "CMD [\"python\", \"pagekite.py\", \"--optfile=/usr/src/app/kite.conf\"]"
 
     ]
 }
