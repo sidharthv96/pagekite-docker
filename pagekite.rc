@@ -1,0 +1,2 @@
+frontend=dyn.a.qpha.org:8091
+service_on=http,https:x.dyn.a.qpha.org:localhost:8080:mysecret
